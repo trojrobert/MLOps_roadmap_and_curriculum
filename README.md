@@ -62,7 +62,7 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 - Build a web app and integrate a machine learning model with FastAPI
 
 #### Projects Resources 
-[How to Deploy Machine Learning Models using Flask (with Code!)](https://www.analyticsvidhya.com/blog/2020/04/how-to-deploy-machine-learning-model-flask/)
+[How to Deploy Machine Learning Models using Flask with Code!](https://www.analyticsvidhya.com/blog/2020/04/how-to-deploy-machine-learning-model-flask/)
 
 ### Topics
 - Introduction to Python Web Frameworks
