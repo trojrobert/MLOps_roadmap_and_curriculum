@@ -85,5 +85,5 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 
 [Deploying a Python Flask Example Application Using Heroku](https://realpython.com/flask-by-example-part-1-project-setup/)
 
-[FastAPI vs. Django vs. Flask](https://youtu.be/9YBAOYQOzWs
+[FastAPI vs. Django vs. Flask](https://youtu.be/9YBAOYQOzWs)
 
