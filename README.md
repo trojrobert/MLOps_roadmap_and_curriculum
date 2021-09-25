@@ -63,6 +63,7 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 
 #### Projects Resources 
 [How to Deploy Machine Learning Models using Flask with Code!](https://www.analyticsvidhya.com/blog/2020/04/how-to-deploy-machine-learning-model-flask/)
+
 [ML Model Deployment With Flask On Heroku](https://youtu.be/pMIwu5FwJ78)
 
 ### Topics
