@@ -10,6 +10,24 @@ Building a machine learning model with high accuracy and performance is good but
 ## Lesson 1
 ### Introduction to Machine Learning Operations(MLOps)
 
+- Meaning and Importances of MLOps
+- Difference between MLOps and other Ops like DevOps, DataOps, DevSecOps?
+- Building user interface and deploying Machine Model with Gradio and Streamlit 
+
+#### Resources
+
+- [Machine Learning Operations](https://ml-ops.org/)
+
+- [Why I Started ML in Production](https://mlinproduction.com/why-i-started-mlinproduction/)
+
+- [MLOps SIG Roadmap](https://github.com/tdcox/mlops-roadmap/blob/master/MLOpsRoadmap2020.md)
+
+- [Awesome MLOps](https://github.com/visenger/awesome-mlops)
+- 
+![Example of Image classifier with Streamlit](https://res.cloudinary.com/dbzzslryr/image/upload/v1631955454/mlops/streamlit_classifier.png)
+*Image classifier with Streamlit*
+
+
 ### Projects to build
 Deploy an image classifier with Gradio and Streamlit - [Link to the deployed image classifier](https://github.com/trojrobert/deploying_image_classification)
 
@@ -31,23 +49,6 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 
 - [Getting started with Streamlit](https://docs.streamlit.io/en/stable/)
  
- 
-### Topics
-- Introduction to MLOps
-- Impotances of MLOps
-- Difference between MLOps and other Ops like DevOps, DataOps, DevSecOps?
-- Building user interface and deploying Machine Model with Gradio and Streamlit 
-
-#### Resources
-
-- [Machine Learning Operations](https://ml-ops.org/)
-
-- [Why I Started ML in Production](https://mlinproduction.com/why-i-started-mlinproduction/)
-
-- [MLOps SIG Roadmap](https://github.com/tdcox/mlops-roadmap/blob/master/MLOpsRoadmap2020.md)
-- 
-![Example of Image classifier with Streamlit](https://res.cloudinary.com/dbzzslryr/image/upload/v1631955454/mlops/streamlit_classifier.png)
-*Image classifier with Streamlit*
 
 
 #### Extra Reading
@@ -56,17 +57,6 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 
 ## Lesson 2 - Deploying machine learning model with python web frameworks
 
-### Project to build
-- Deploy ML model to generate artistic portrait drawing (APDDrawingGAN) with flask + uwsgi
-
-- Build a web app and integrate a machine learning model with FastAPI
-
-#### Projects Resources 
-[How to Deploy Machine Learning Models using Flask with Code!](https://www.analyticsvidhya.com/blog/2020/04/how-to-deploy-machine-learning-model-flask/)
-
-[ML Model Deployment With Flask On Heroku](https://youtu.be/pMIwu5FwJ78)
-
-### Topics
 - Introduction to Python Web Frameworks
 - Differences between Flask, Django, and FastAPI
 - Deploying ML model with Flask 
@@ -88,4 +78,14 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 [Deploying a Python Flask Example Application Using Heroku](https://realpython.com/flask-by-example-part-1-project-setup/)
 
 [FastAPI vs. Django vs. Flask](https://youtu.be/9YBAOYQOzWs)
+
+### Project to build
+- Deploy ML model to generate artistic portrait drawing (APDDrawingGAN) with flask + uwsgi
+
+- Build a web app and integrate a machine learning model with FastAPI
+
+#### Projects Resources 
+[How to Deploy Machine Learning Models using Flask with Code!](https://www.analyticsvidhya.com/blog/2020/04/how-to-deploy-machine-learning-model-flask/)
+
+[ML Model Deployment With Flask On Heroku](https://youtu.be/pMIwu5FwJ78)
 
