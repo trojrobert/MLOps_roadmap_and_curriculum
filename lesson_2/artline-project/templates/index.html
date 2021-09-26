@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Modern Business - Start Bootstrap Template</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{{ url_for('static',filename='css/styles.css') }}" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand" href="index.html">Lesson 2 - Deploying machine learning model with python web frameworks</a>
+                </div>
+            </nav>
+
+            <!-- Testimonial section-->
+            <div class="py-5 bg-dark">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-10 col-xl-7">
+                            <div class="my-5 text-center text-xl-start">
+                                <h1 class="display-5 fw-bolder text-white mb-2">Generating Artistic Portrait Drawings from Image</h1>
+                                <p class="lead fw-normal text-white-50 mb-4">Have Fun</p>
+                                <!-- <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                    <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Get Started</a>
+                                    <a class="btn btn-outline-light btn-lg px-4" href="#!">Learn More</a>
+                                </div> -->
+                                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start" id="form">
+                                    <form action="/" method="POST">
+
+                                        <div class="container">
+                                            <div class="row">
+                                              <div class="col-sm">
+                                                <input class="form-control" type="file"  id="query-image" name="query-image" accept="image/*" onchange="previewImage()">
+                                                <input style="display:none" class="form-control" type="url" id="query-url" name="query-url" placeholder="Image URL" onchange="previewImageURL()">
+                                              </div>
+                                              <div class="col-sm">
+                                                <input style="display: inline;" class="btn btn-outline-light btn-lg px-4" id="submit" type="submit" value="Create Artistic Drawings"/>
+                                              </div>
+
+                                            </div>
+                                        </div>
+                                        
+                                        <!-- <input class="form-control" type="file"  id="query-image" name="query-image" accept="image/*" onchange="previewImage()">
+                                        <input class="form-control" type="url" id="query-url" name="query-url" placeholder="Image URL" onchange="previewImageURL()">
+                                        <input style="display: inline;" class="btn btn-outline-light btn-lg px-4" id="submit" type="submit" value="Query Image"/> -->
+                                    </form>
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Header-->
+            <header class="bg-dark py-5">
+                <div class="container px-5">
+                    <div class="row gx-5 align-items-center justify-content-center">
+                        <div class="col-lg-8 col-xl-7 col-xxl-6">
+                            <img class="img-fluid rounded-3 my-5" id="qimg" src="{{q_image_path}}"/>
+                        </div>
+                        <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                            <img class="img-fluid rounded-3 my-5" id="pimg" src="{{p_image_path}}"/>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+
+
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; John Robert</div></div>
+
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <!-- <script src="/home/trojrobert/Projects/new_project/artline-project/templates/js/scripts.js"></script> -->
+        {% block javascript %}
+        <script>
+            const previewImage = () => {
+                file = document.getElementById("query-image").files[0]
+                if (file) {
+                    qimg.src = URL.createObjectURL(file)
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        const imgPath = e.target.result
+                        console.log(imgPath);
+                        document.getElementById("query-url").value = imgPath
+                    }
+                    reader.readAsDataURL(file);
+                }     
+            }
+            
+            const previewImageURL= () => {
+                url_value = document.getElementById("query-url").value
+                qimg.src = url_value
+            }
+
+        </script>
+    {% endblock %}
+    </body>
+</html>

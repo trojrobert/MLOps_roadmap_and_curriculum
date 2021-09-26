@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artline</title>
+</head>
+<body>
+    <style>
+        * {
+        margin: 0;
+        padding: 0; 
+        
+        }
+
+        *,
+        *::before,
+        *::after {
+        box-sizing: inherit; 
+        }
+
+        html {
+        box-sizing: border-box;
+        font-size: 62.5%; 
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            min-height: 100vh;
+            background-color: aliceblue;
+        }
+
+        header {
+            text-align: center;
+            height: 10rem;
+            padding-top: 5rem;
+            margin-bottom: 10rem;
+            font-size: 2rem;
+        }
+
+        #app {
+            min-width: 136.6rem;
+            margin: 0 auto;
+            min-height: 100vh;
+        }
+        
+        #form {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 3rem;
+        }
+
+        #form:first-child {
+            margin: 5rem;
+        }
+
+        #images {
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            max-width: 40rem;
+        }
+
+        #save-img {
+            width: 10rem;
+            height: 4rem;
+            border-radius: 5%;
+            background-color: black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        #save-img a {
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: white;
+        }
+
+        #submit {
+            cursor: pointer;
+        }
+
+
+    </style>
+    <div id="app">
+        <header>
+            <h1>Artline</h1>
+            <h3>Application is based on the Model @ repo <code>https://github.com/vijishmadhavan/ArtLine</code></h3>
+            <h4>Upload Image or Supply Image URL</h4>
+        </header>
+        <main>
+            <div id="form">
+                <form action="/" method="POST">
+                    <input type="file"  id="query-image" name="query-image" accept="image/*" onchange="previewImage()">
+                    <input type="url" id="query-url" name="query-url" placeholder="Image URL" onchange="previewImageURL()">
+                    <input id="submit" type="submit" value="Query Image"/>
+                </form>
+            </div>
+        
+            <div id="images">
+                <div>
+                    <img id="qimg" src="{{q_image_path}}"/>
+                </div>
+        
+                <div>
+                    <img id="pimg" src="{{p_image_path}}">
+                    <div id="save-img">
+                        <a href="{{p_image_path}}" download>Save Image</a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    
+    
+    {% block javascript %}
+        <script>
+            const previewImage = () => {
+                file = document.getElementById("query-image").files[0]
+                if (file) {
+                    qimg.src = URL.createObjectURL(file)
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        const imgPath = e.target.result
+                        console.log(imgPath);
+                        document.getElementById("query-url").value = imgPath
+                    }
+                    reader.readAsDataURL(file);
+                }     
+            }
+            
+            const previewImageURL= () => {
+                url_value = document.getElementById("query-url").value
+                qimg.src = url_value
+            }
+
+        </script>
+    {% endblock %}
+</body>
+</html>

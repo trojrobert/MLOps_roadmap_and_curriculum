@@ -1,0 +1,7 @@
+.vscode/
+artline-env/
+static/
+__pycache__/
+checkpoint/
+*.pkl
+*.jpg

@@ -1,0 +1,22 @@
+{
+  "name": "artline-project",
+  "version": "1.0.0",
+  "description": "An Image Processing app of the model at <https://github.com/vijishmadhavan/ArtLine>",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temiloluwa/artline-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Temiloluwa/artline-project/issues"
+  },
+  "homepage": "https://github.com/Temiloluwa/artline-project#readme"
+}
