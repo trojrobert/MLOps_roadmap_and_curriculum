@@ -35,7 +35,7 @@ Deploy an image classifier with Gradio and Streamlit - [Link to the deployed ima
 
 Write an article to compare Gradio and Stremlit - *Article in progress* 
 
-#### Resources used in deploying the projects 
+#### Project Resources 
 **Gradio Resources**
 - [Getting Started with Gradio](https://gradio.app/getting_started)
 
