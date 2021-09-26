@@ -1,11 +1,11 @@
 # A guide and roadmap from beginner to advance for Machine Learning in Production / MLOps 
-The question many ask is "How do I start". I am documenting my journey and creating a roadmap/curriculum from beginner to advanced level in MLOps. You can start using my guide and roadmap as a baseline. Since I learn more by doing, this journey is project-based and provides answers to MLOps questions.
+
+The question many ask is "How do I start". I am documenting my journey and creating a roadmap/curriculum that can be used as a guide to learn MLOps. Since I learn more by doing, this journey is project-based.
 
 ![Machine Learning Workflow](https://ml-ops.org/img/ml-engineering.jpg)
 *Machine Learning Engineer Workflow. source - https://ml-ops.org/img/ml-engineering.jpg* 
 
-This repo contains projects and resources which can be used as a guide and roadmap from beginner to advanced level for Machine learning in Production or Machine Learning Operations (MLOps). 
-Building a machine learning model with high accuracy and performance is good but we need to move beyond that. To add more value to our machine learning model, we need to deploy the machine learning or deep learning model to production to solve real-life problems. Deploying a model to production which is sometimes known as MLOps is an emerging and complex field because it requires a lot of components and skills.
+Building a machine learning model with high accuracy and performance is good but we need to move beyond that. To add more value to our machine learning model, we need to deploy the machine learning or deep learning model to production to solve real-life problems. Automating the process of deploying a model to production is sometimes known as MLOps. MLOps is an emerging and complex field because it requires a lot of components and skills. This repo makes the learning of MLOps easy.
 
 ## Lesson 1
 ### Introduction to Machine Learning Operations(MLOps)
