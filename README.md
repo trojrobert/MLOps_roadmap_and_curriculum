@@ -23,8 +23,10 @@ Building a machine learning model with high accuracy and performance is good but
 - [MLOps SIG Roadmap](https://github.com/tdcox/mlops-roadmap/blob/master/MLOpsRoadmap2020.md)
 
 - [Awesome MLOps](https://github.com/visenger/awesome-mlops)
-- 
+
+
 ![Example of Image classifier with Streamlit](https://res.cloudinary.com/dbzzslryr/image/upload/v1631955454/mlops/streamlit_classifier.png)
+
 *Image classifier with Streamlit*
 
 
