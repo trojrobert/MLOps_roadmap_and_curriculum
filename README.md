@@ -91,3 +91,5 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 
 [ML Model Deployment With Flask On Heroku](https://youtu.be/pMIwu5FwJ78)
 
+## Others 
+https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb#scrollTo=RuQMz_jqihsU
