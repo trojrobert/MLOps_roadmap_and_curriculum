@@ -98,13 +98,13 @@ Write an article to compare Gradio and Stremlit - [A guide for creating UI and d
 
    - Front-end - Bootstrap
 
-Web Framework - Flask + uWSGI
+   - Web Framework - Flask + uWSGI
 
-ML model - Pytorch + Fastai(APDrawingGAN)
+   - ML model - Pytorch + Fastai(APDrawingGAN)
 
-Deployment - Docker
+   - Deployment - Docker
 
-Cloud service - Digital ocean
+   - Cloud service - Digital ocean
 
 - Build a web app and integrate a machine learning model with FastAPI
 
