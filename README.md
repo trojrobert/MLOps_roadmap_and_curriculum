@@ -96,7 +96,7 @@ Write an article to compare Gradio and Stremlit - [A guide for creating UI and d
 ### Project to build
 - Deploy ML model to generate artistic portrait drawing (APDDrawingGAN) with flask + uwsgi
 
-Front-end - Bootstrap
+   - Front-end - Bootstrap
 
 Web Framework - Flask + uWSGI
 
