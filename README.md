@@ -14,6 +14,9 @@ Building a machine learning model with high accuracy and performance is good but
 - Difference between MLOps and other Ops like DevOps, DataOps, DevSecOps?
 - Building user interface and deploying Machine Model with Gradio and Streamlit 
 
+### Keywords
+MLOps, Gradio, Streamlit 
+
 #### Resources
 
 - [Machine Learning Operations](https://ml-ops.org/)
@@ -24,6 +27,8 @@ Building a machine learning model with high accuracy and performance is good but
 
 - [Awesome MLOps](https://github.com/visenger/awesome-mlops)
 
+- [Differences: DevOps, ITOps, MLOps, DataOps, ModelOps, AIOps, SecOps, DevSecOps](https://medium.com/vitrox-publication/differences-devops-itops-mlops-dataops-modelops-aiops-secops-devsecops-part-1-3-8b238cf72942)
+
 
 ![Example of Image classifier with Streamlit](https://res.cloudinary.com/dbzzslryr/image/upload/v1631955454/mlops/streamlit_classifier.png)
 
@@ -33,7 +38,7 @@ Building a machine learning model with high accuracy and performance is good but
 ### Projects to build
 Deploy an image classifier with Gradio and Streamlit - [Link to the deployed image classifier](https://github.com/trojrobert/deploying_image_classification)
 
-Write an article to compare Gradio and Stremlit - *Article in progress* 
+Write an article to compare Gradio and Stremlit - [A guide for creating UI and deploying machine learning model with Streamlit vs Gradio](https://trojrobert.medium.com/a-guide-for-deploying-machine-learning-model-with-streamlit-vs-gradio-563a0b2dc1bd)
 
 #### Project Resources 
 **Gradio Resources**
@@ -61,9 +66,14 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 
 - Introduction to Python Web Frameworks
 - Differences between Flask, Django, and FastAPI
-- Deploying ML model with Flask 
-- From ML Model to Production with FastAPI
-- Accessing your model in real-time with Heroku
+- Introduction to Docker
+- Deploying computer vision model with Flask and uWSGI on Digital Ocean 
+- From ML Model to Production using FastAPI and Heroku
+
+#### Docker Resources
+[Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://youtu.be/fqMOX6JJhGo)
+
+[Docker Tutorial for Beginners [FULL COURSE in 3 Hours]](https://youtu.be/3c-iBn73dDE)
 
 ####  Fast API Resources
 
@@ -81,8 +91,20 @@ Write an article to compare Gradio and Stremlit - *Article in progress*
 
 [FastAPI vs. Django vs. Flask](https://youtu.be/9YBAOYQOzWs)
 
+
+
 ### Project to build
 - Deploy ML model to generate artistic portrait drawing (APDDrawingGAN) with flask + uwsgi
+
+Front-end - Bootstrap
+
+Web Framework - Flask + uWSGI
+
+ML model - Pytorch + Fastai(APDrawingGAN)
+
+Deployment - Docker
+
+Cloud service - Digital ocean
 
 - Build a web app and integrate a machine learning model with FastAPI
 
