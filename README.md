@@ -94,7 +94,7 @@ Write an article to compare Gradio and Stremlit - [A guide for creating UI and d
 
 
 ### Project to build
-- Deploy ML model to generate artistic portrait drawing (APDDrawingGAN) with flask + uwsgi
+- Deploy ML model to generate artistic portrait drawing (APDDrawingGAN) with Flask + uWSGI on Digital Ocean
 
    - Front-end - Bootstrap
 
@@ -106,7 +106,7 @@ Write an article to compare Gradio and Stremlit - [A guide for creating UI and d
 
    - Cloud service - Digital ocean
 
-- Build a web app and integrate a machine learning model with FastAPI
+- Build a web app with FastAPI, integrate a machine learning model for time series and deploy on Heroku
 
 #### Projects Resources 
 [How to Deploy Machine Learning Models using Flask with Code!](https://www.analyticsvidhya.com/blog/2020/04/how-to-deploy-machine-learning-model-flask/)
