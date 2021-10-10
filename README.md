@@ -118,12 +118,11 @@ Flask, uWGSGI, Django, FastAPI,Docker, Digital Ocean
 https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb#scrollTo=RuQMz_jqihsU
 
 
-## Lesson 3- Montoring ML model with Mlflow and optimising deployment
+## Lesson 3- Machine Learning Model tracking with MLflow and deployment optimization
 
-- Creating several containers with docker compose
+- Running multiple containers with docker compose
 - Introduction to Github Action
-- Introcution to MlFlow
+- Introduction to MLflow
 
 ### Project 
-- Build a forecasting model with Fast API and monitoring the model with MlFlow
-
+- Build a forecasting model with Fast API and track the model with MLflow
