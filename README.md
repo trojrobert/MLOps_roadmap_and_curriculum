@@ -1,4 +1,4 @@
-# A guide and roadmap from beginner to advance for Machine Learning in Production / MLOps 
+# A guide and roadmap from Zero to Hero for Machine Learning in Production / MLOps 
 
 The question many ask is "How do I start". I am documenting my journey and creating a roadmap/curriculum that can be used as a guide to learn MLOps. Since I learn more by doing, this journey is project-based.
 
@@ -38,7 +38,7 @@ MLOps, Gradio, Streamlit
 ### Projects to build
 Deploy an image classifier with Gradio and Streamlit - [Link to the deployed image classifier](https://github.com/trojrobert/deploying_image_classification)
 
-Write an article to compare Gradio and Stremlit - [A guide for creating UI and deploying machine learning model with Streamlit vs Gradio](https://trojrobert.medium.com/a-guide-for-deploying-machine-learning-model-with-streamlit-vs-gradio-563a0b2dc1bd)
+Write an article to compare Gradio and Streamlit - [A guide for creating UI and deploying machine learning model with Streamlit vs Gradio](https://trojrobert.medium.com/a-guide-for-deploying-machine-learning-model-with-streamlit-vs-gradio-563a0b2dc1bd)
 
 #### Project Resources 
 **Gradio Resources**
@@ -56,9 +56,9 @@ Write an article to compare Gradio and Stremlit - [A guide for creating UI and d
 
 - [Getting started with Streamlit](https://docs.streamlit.io/en/stable/)
  
+### Other resources
+[How to Implement Customer Churn Prediction [Machine Learning Guide for Programmers]](https://neptune.ai/blog/how-to-implement-customer-churn-prediction)
 
-
-#### Extra Reading
 [Why data scientists shouldn’t need to know Kubernetes](https://huyenchip.com/2021/09/13/data-science-infrastructure.html)
 
 
@@ -68,8 +68,9 @@ Write an article to compare Gradio and Stremlit - [A guide for creating UI and d
 - Differences between Flask, Django, and FastAPI
 - Introduction to Docker
 - Deploying computer vision model with Flask and uWSGI on Digital Ocean 
-- From ML Model to Production using FastAPI and Heroku
 
+### Keywords
+Flask, uWGSGI, Django, FastAPI,Docker, Digital Ocean  
 #### Docker Resources
 [Docker Tutorial for Beginners - A Full DevOps Course on How to Run Applications in Containers](https://youtu.be/fqMOX6JJhGo)
 
@@ -106,7 +107,7 @@ Write an article to compare Gradio and Stremlit - [A guide for creating UI and d
 
    - Cloud service - Digital ocean
 
-- Build a web app with FastAPI, integrate a machine learning model for time series and deploy on Heroku
+- Build a web app with FastAPI, integrate a machine learning model for time series and deploy on Heroku (Optional)
 
 #### Projects Resources 
 [How to Deploy Machine Learning Models using Flask with Code!](https://www.analyticsvidhya.com/blog/2020/04/how-to-deploy-machine-learning-model-flask/)
@@ -115,3 +116,14 @@ Write an article to compare Gradio and Stremlit - [A guide for creating UI and d
 
 ## Others 
 https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb#scrollTo=RuQMz_jqihsU
+
+
+## Lesson 3- Montoring ML model with Mlflow and optimising deployment
+
+- Creating several containers with docker compose
+- Introduction to Github Action
+- Introcution to MlFlow
+
+### Project 
+- Build a forecasting model with Fast API and monitoring the model with MlFlow
+
