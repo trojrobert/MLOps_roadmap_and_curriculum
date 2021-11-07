@@ -122,7 +122,7 @@ https://colab.research.google.com/github/fastai/fastbook/blob/master/02_producti
 
 - Running multiple containers with docker compose
 - Introduction to Github Action
-- Introduction to MLflow
+- Introduction to mlflow
 
 ### Project 
-- Build a forecasting model with Fast API and track the model with MLflow
+- Build a forecasting model with Fast API and track the model with mlflow
