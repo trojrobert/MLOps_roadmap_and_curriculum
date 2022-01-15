@@ -15,17 +15,17 @@ Building a machine learning model with high accuracy and performance is good but
 
 **Lesson 3** - Machine Learning Model tracking  and deployment optimization
 
-**Lesson 4** - Machine Learning Model tracking  and deployment optimization
+**Lesson 4** - Model Serving and Loading 
 
-**Lesson 5** - Model Serving and Loading 
+**Lesson 5** - Deploying ML model on Mobile app
 
-**Lesson 6** - Deploying ML model on Mobile app
+**Lesson 6** - Deploying ML model on embedded system
 
-**Lesson 7** - Deploying ML model on embedded system
+**Lesson 7** - Cloud providers and machine learning tools
 
-**Lesson 8** - Cloud providers and machine learning tools
+**Lesson 8** - Model Registry and Model Version Control
 
-**Lesson 9** - Model Registry and Model Version Control
+**Lesson 9** - Managing Machine learning workflow
 
 **Lesson 10** - Model Optimization with Spark and Databrick
 
@@ -33,11 +33,13 @@ Building a machine learning model with high accuracy and performance is good but
 
 **Lesson 12** - Feature Store
 
-**Lesson 13** - Model Retraining 
+**Lesson 13** - Kubenetes in Machine Learning 
 
-**Lesson 14** - Model Testing 
+**Lesson 14** - Model Testing
 
-**Lesson 15** - AutoML
+**Lesson 15** - Model Retraining 
+
+**Lesson 16** - AutoML
 
 ## Lesson 1
 ### Introduction to Machine Learning Operations(MLOps)
@@ -167,52 +169,53 @@ https://colab.research.google.com/github/fastai/fastbook/blob/master/02_producti
 - Model serving tools(Seldon, Tf serve, Pytorch serve, sage maker, ...)
 - Creating endpoint for Machine Learning model
 
-## Lesson 5 - Cloud providers and machine learning tool
+## Lesson 5 - Deploying ML model on Mobile app
+
+- Tools require to deploy machine learning model on Andriod
+- Tools for machine learning on IOS
+
+## Lesson 6 - Deploying ML model on embedded system
+
+- How  to deploy Machine Learning model on raspberry pi
+
+## Lesson 7 - Cloud providers and machine learning tool
 
 - Introduction to Amazon, Microsoft and Google machine learning platform
 - Overview of Amazon Sagemaker
 - Overview of Azure machine Learning Studio
 - Overview of Google Cloud machine Learning platform
 
-## Lesson 6 - Model Registry and Model Version Control
+## Lesson 8 - Model Registry and Model Version Control
 
 - Why you need to version your models
 - Model runs and experiments
 - Managing multiple models
 - Model Registry tools
 
-## Lesson 7 - Managing Machine learning workflow
+## Lesson 9 - Managing Machine learning workflow
 
 - Example of machine learning workflow
 - Using Airflow and Jenkins to monitor machine learning workflow
 
-### Lesson 8 - Model Optimization with Spark and Databrick
+### Lesson 10 - Model Optimization with Spark and Databrick
 
 - Why you should not use Pandas in production
 - Introduction to Pyspark
 - Introduction to Databricks
 - Distributing Data during model
 
-## Lesson 9 - Feature Store
-
-- What is Feature store
-- The importance of Feature store in machine learning
-- Tools for Feature Store 
-
-## Lesson 10 - Managing Infrastructures for machine learning model
+## Lesson 11 - Managing Infrastructures for machine learning model
 
 - Infrastructure as code
 - Introduction to Terraform
 - Introduction to Ansible
 
-## Lesson 11 - Deploying ML model on Mobile app
+## Lesson 12 - Feature Store
 
-- Tools require to deploy machine learning model on Andriod
-- Tools for machine learning on IOS
+- What is Feature store
+- The importance of Feature store in machine learning
+- Tools for Feature Store 
 
-## Lesson 12 - Deploying ML model on embedded system
-
-- How  to deploy Machine Learning model on raspberry pi
 
 ## Lesson 13 - Kubenetes in Machine Learning 
 
