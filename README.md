@@ -7,19 +7,32 @@ The question many ask is "How do I start". I am documenting my journey and creat
 
 Building a machine learning model with high accuracy and performance is good but we need to move beyond that. To add more value to our machine learning model, we need to deploy the machine learning or deep learning model to production to solve real-life problems. Automating the process of deploying a model to production is sometimes known as MLOps. MLOps is an emerging and complex field because it requires a lot of components and skills. This repo makes the learning of MLOps easy.
 
-#Overview
+## Overview
+
 *Lesson 1* - Introduction to Machine Learning Operations(MLOps)
+
 *Lesson 2* - Deploying machine learning model with docker on python web frameworks
+
 *Lesson 3* - Machine Learning Model tracking  and deployment optimization
+
 *Lesson 4* - Machine Learning Model tracking  and deployment optimization
+
 *Lesson 5* - Model Serving and Loading 
+
 *Lesson 6* - Deploying ML model on Mobile app
+
 *Lesson 7* - Deploying ML model on embedded system
+
 *Lesson 8* - Cloud providers and machine learning tools
+
 *Lesson 9* - Model Registry and Model Version Control
+
 *Lesson 10* - Model Optimization with Spark and Databrick
+
 *Lesson 11* - Managing Infrastructures for machine learning model
+
 *Lesson 12* - Feature Store
+
 *Lesson 13* - Model Retraining 
 *Lesson 14* - Model Testing 
 *Lesson 15* - AutoML
