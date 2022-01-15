@@ -34,7 +34,9 @@ Building a machine learning model with high accuracy and performance is good but
 **Lesson 12** - Feature Store
 
 **Lesson 13** - Model Retraining 
+
 **Lesson 14** - Model Testing 
+
 **Lesson 15** - AutoML
 
 ## Lesson 1
@@ -148,11 +150,77 @@ Flask, uWGSGI, Django, FastAPI,Docker, Digital Ocean
 https://colab.research.google.com/github/fastai/fastbook/blob/master/02_production.ipynb#scrollTo=RuQMz_jqihsU
 
 
-## Lesson 3- Machine Learning Model tracking with MLflow and deployment optimization
+## Lesson 3 - Machine Learning Model tracking with MLflow and deployment optimization
 
-- Running multiple containers with docker compose
+- Running multiple containers with docker compose(Advance docker)
 - Introduction to Github Action
-- Introduction to mlflow
+- Introduction to Model Tracking
+- Tools used in model tracking( mlflow, WandB, etc)
 
 ### Project 
 - Build a forecasting model with Fast API and track the model with mlflow
+
+## Lesson 4 - Model Serving and Loading
+
+- What is  Model Serving
+- Saving model and loading model in production
+- Model serving tools(Seldon, Tf serve, Pytorch serve, sage maker, ...)
+- Creating endpoint for Machine Learning model
+
+## Lesson 5 - Cloud providers and machine learning tool
+
+- Introduction to Amazon, Microsoft and Google machine learning platform
+- Overview of Amazon Sagemaker
+- Overview of Azure machine Learning Studio
+- Overview of Google Cloud machine Learning platform
+
+## Lesson 6 - Model Registry and Model Version Control
+
+- Why you need to version your models
+- Model runs and experiments
+- Managing multiple models
+- Model Registry tools
+
+## Lesson 7 - Managing Machine learning workflow
+
+- Example of machine learning workflow
+- Using Airflow and Jenkins to monitor machine learning workflow
+
+### Lesson 8 - Model Optimization with Spark and Databrick
+
+- Why you should not use Pandas in production
+- Introduction to Pyspark
+- Introduction to Databricks
+- Distributing Data during model
+
+## Lesson 9 - Feature Store
+
+- What is Feature store
+- The importance of Feature store in machine learning
+- Tools for Feature Store 
+
+## Lesson 10 - Managing Infrastructures for machine learning model
+
+- Infrastructure as code
+- Introduction to Terraform
+- Introduction to Ansible
+
+## Lesson 11 - Deploying ML model on Mobile app
+
+- Tools require to deploy machine learning model on Andriod
+- Tools for machine learning on IOS
+
+## Lesson 12 - Deploying ML model on embedded system
+
+- How  to deploy Machine Learning model on raspberry pi
+
+## Lesson 13 - Kubenetes in Machine Learning 
+
+- Introduction to Kubenetes
+- Using Kubeflow
+
+## Lesson 14 - Model Testing
+
+## Lesson 15 - Model Retraining 
+
+## Lesson 16 - AutoML
