@@ -9,33 +9,33 @@ Building a machine learning model with high accuracy and performance is good but
 
 ## Overview
 
-*Lesson 1* - Introduction to Machine Learning Operations(MLOps)
+**Lesson 1** - Introduction to Machine Learning Operations(MLOps)
 
-*Lesson 2* - Deploying machine learning model with docker on python web frameworks
+**Lesson 2** - Deploying machine learning model with docker on python web frameworks
 
-*Lesson 3* - Machine Learning Model tracking  and deployment optimization
+**Lesson 3** - Machine Learning Model tracking  and deployment optimization
 
-*Lesson 4* - Machine Learning Model tracking  and deployment optimization
+**Lesson 4** - Machine Learning Model tracking  and deployment optimization
 
-*Lesson 5* - Model Serving and Loading 
+**Lesson 5** - Model Serving and Loading 
 
-*Lesson 6* - Deploying ML model on Mobile app
+**Lesson 6** - Deploying ML model on Mobile app
 
-*Lesson 7* - Deploying ML model on embedded system
+**Lesson 7** - Deploying ML model on embedded system
 
-*Lesson 8* - Cloud providers and machine learning tools
+**Lesson 8** - Cloud providers and machine learning tools
 
-*Lesson 9* - Model Registry and Model Version Control
+**Lesson 9** - Model Registry and Model Version Control
 
-*Lesson 10* - Model Optimization with Spark and Databrick
+**Lesson 10** - Model Optimization with Spark and Databrick
 
-*Lesson 11* - Managing Infrastructures for machine learning model
+**Lesson 11** - Managing Infrastructures for machine learning model
 
-*Lesson 12* - Feature Store
+**Lesson 12** - Feature Store
 
-*Lesson 13* - Model Retraining 
-*Lesson 14* - Model Testing 
-*Lesson 15* - AutoML
+**Lesson 13** - Model Retraining 
+**Lesson 14** - Model Testing 
+**Lesson 15** - AutoML
 
 ## Lesson 1
 ### Introduction to Machine Learning Operations(MLOps)
