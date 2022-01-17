@@ -41,6 +41,8 @@ Building a machine learning model with high accuracy and performance is good but
 
 **Lesson 16** - AutoML
 
+**Lesson 17** - Distributed Machine learning with Ray
+
 ## Lesson 1
 ### Introduction to Machine Learning Operations(MLOps)
 
@@ -227,3 +229,5 @@ https://colab.research.google.com/github/fastai/fastbook/blob/master/02_producti
 ## Lesson 15 - Model Retraining 
 
 ## Lesson 16 - AutoML
+
+## Lesson 17 - Distributed Machine learning with Ray
