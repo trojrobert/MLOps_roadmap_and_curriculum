@@ -2,8 +2,8 @@
 
 The question many ask is "How do I start". I am documenting my journey and creating a roadmap/curriculum that can be used as a guide to learn MLOps. Since I learn more by doing, this journey is project-based.
 
-![Machine Learning Workflow](https://ml-ops.org/img/ml-engineering.jpg)
-*Machine Learning Engineer Workflow. source - https://ml-ops.org/img/ml-engineering.jpg* 
+![MLOps Guide and Road Overview](https://res.cloudinary.com/dbzzslryr/image/upload/v1644945678/mlops_course/mlops_course.png)
+*Machine Learning in Production Guide and Roadmap Overview* 
 
 Building a machine learning model with high accuracy and performance is good but we need to move beyond that. To add more value to our machine learning model, we need to deploy the machine learning or deep learning model to production to solve real-life problems. Automating the process of deploying a model to production is sometimes known as MLOps. MLOps is an emerging and complex field because it requires a lot of components and skills. This repo makes the learning of MLOps easy.
 
@@ -66,7 +66,7 @@ MLOps, Gradio, Streamlit
 - [Differences: DevOps, ITOps, MLOps, DataOps, ModelOps, AIOps, SecOps, DevSecOps](https://medium.com/vitrox-publication/differences-devops-itops-mlops-dataops-modelops-aiops-secops-devsecops-part-1-3-8b238cf72942)
 
 
-![Example of Image classifier with Streamlit](https://res.cloudinary.com/dbzzslryr/image/upload/v1631955454/mlops/streamlit_classifier.png)
+<!-- [Example of Image classifier with Streamlit](https://res.cloudinary.com/dbzzslryr/image/upload/v1631955454/mlops/streamlit_classifier.png) -->
 
 *Image classifier with Streamlit*
 
